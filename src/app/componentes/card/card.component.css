@@ -1,0 +1,28 @@
+.card__container{
+    position: relative;
+
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+
+    display: flex;
+    margin-top: 10px;
+}
+.card__container > a{
+    min-width: 78%;
+    max-width: 78%;
+    max-height: 90%;
+    margin-top: 0;
+}
+
+.card__img{
+    width: 120%;
+    min-height: 78%;
+    max-height: 78%;
+    transition: transform .8s;
+    border-radius: 3px ;
+}
+.card__img:hover{
+    transform: scale(1.03);
+    filter: contrast(0.7);
+}

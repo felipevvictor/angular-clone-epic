@@ -1,0 +1,31 @@
+.card-label__container{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.card-label__content{
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    
+}
+.card-label__content h4{
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.card-label__content p{
+    font-family: 'inter';
+    grid-template-columns: auto;
+    align-items: center;
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
