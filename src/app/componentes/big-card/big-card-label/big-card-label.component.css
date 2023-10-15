@@ -1,27 +1,25 @@
-.card-label__container{
+.big-card-label__container{
     position: absolute;
     bottom: 50px;
     left: 0;
     max-width: 100%;
     min-width: 100%;
-    padding-left: 8px;
-    padding-left: 8px;
 }
 
-.card-label__content{
+.big-card-label__content{
     align-items: center;
     color: white;
     padding-bottom: 20px;
     margin-bottom: 0;
     
 }
-.card-label__content h3{
+.big-card-label__content h3{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
 }
 
-.card-label__content p{
+.big-card-label__content p{
     font-family: 'inter';
     grid-template-columns: auto;
     align-items: center;

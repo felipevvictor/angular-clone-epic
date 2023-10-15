@@ -1,0 +1,34 @@
+.container__titulo{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: space-between;
+
+
+}
+.container__titulo .text h3{
+    color: white;
+    font-weight: 400;
+    text-align: start;
+
+}
+
+.container__titulo .setas ul {
+   display: flex;
+   align-self: center;
+
+}
+
+.container__titulo .setas ul li a{
+    
+    background-color: #2b2b2b;
+    padding: 6px 10px;
+    margin-right: 7px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}

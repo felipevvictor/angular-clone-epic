@@ -1,0 +1,30 @@
+.extreme-card__container{
+    position: relative;
+
+    width: 950px;
+    height: 550px;
+    overflow: hidden;
+
+    display: flex;
+    margin-top: 10px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.extreme-card__container > a{
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+}
+
+.extreme-card__img{
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    transition: transform .8s;
+    border-radius: 20px;
+    
+}
+.extreme-card__img:hover{
+    transform: scale(1.03);
+    filter: contrast(0.7);
+}

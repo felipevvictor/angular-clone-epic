@@ -1,32 +1,29 @@
-.card__container{
+.big-card__container{
     position: relative;
 
-    width: 230px;
+    width: 460px;
     height: 380px;
     overflow: hidden;
 
     display: flex;
-    margin: 10px 10px;
-   
-    padding: 5px;
-    margin-left: 10px;
-    
+    margin-top: 10px;
 }
-.card__container > a{
+.big-card__container > a{
     min-width: 78%;
     max-width: 78%;
     max-height: 90%;
     margin-top: 0;
 }
 
-.card__img{
+.big-card__img{
     width: 120%;
     min-height: 78%;
     max-height: 78%;
     transition: transform .8s;
-    border-radius: 3px ;
+    border-radius: 20px;
+    
 }
-.card__img:hover{
+.big-card__img:hover{
     transform: scale(1.03);
     filter: contrast(0.7);
 }

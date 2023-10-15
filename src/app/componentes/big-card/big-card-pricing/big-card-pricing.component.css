@@ -1,0 +1,33 @@
+.big-card-pricing__container{
+    position: absolute;
+    left: 0;
+    width: 97%;
+    align-items: center;
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-card-pricing__desconto p {
+    font-family: 'inter';
+    color: white;
+    background-color: #0074e4;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.game-value {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.game-value-aft {
+    text-decoration: line-through;
+    margin-right: 20px;
+    color: gray;
+}

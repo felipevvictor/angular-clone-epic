@@ -1,0 +1,22 @@
+.small-card__container{
+
+    width: 200px;
+    height: 130px;
+
+    float: center;
+
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.small-card__container:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.small-card__img{
+    width: 50%;
+    min-height: 100%;
+    border-radius: 8px ;
+}

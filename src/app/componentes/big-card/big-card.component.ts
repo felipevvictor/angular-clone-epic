@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  selector: 'app-big-card',
+  templateUrl: './big-card.component.html',
+  styleUrls: ['./big-card.component.css']
 })
-export class CardComponent implements OnInit {
+export class BigCardComponent implements OnInit {
 
   @Input()
   gameCover:string = '';
@@ -14,9 +14,9 @@ export class CardComponent implements OnInit {
   @Input()
   gameTitle:string='';
   @Input()
-  gamePriceBef:string = '';
+  gamePriceBef:string = ''
   @Input()
-  gamePriceAft:string = '';
+  gamePriceAft:string = ''
   @Input()
   gameDesc:string = '';
 
